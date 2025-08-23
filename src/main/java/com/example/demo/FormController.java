@@ -70,7 +70,7 @@ public class FormController {
     @PutMapping(path="/customers", consumes={"application/json"})
     public Customers getCustomers5(@RequestBody Customers customers){
         repo.save(customers);
-        return customer    }
+        return customer;    }
 
 
 
